@@ -13,7 +13,7 @@ while true; do
     select choice in "${options[@]}"; 
     do
       case $choice in
-        "Create Table")  source $SCRIPT_DIR/create_tables.sh ;;
+        "Create Table")  source $SCRIPT_DIR/create_table.sh ;;
         "List Tables")  source $SCRIPT_DIR/list_tables.sh ;;
         "Drop Table") source $SCRIPT_DIR/drop_table.sh ;;
         "Insert into table") source $SCRIPT_DIR/insert_into_table.sh ;;
